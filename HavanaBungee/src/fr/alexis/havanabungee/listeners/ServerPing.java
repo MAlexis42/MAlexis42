@@ -11,7 +11,7 @@ public class ServerPing implements Listener {
     @EventHandler
     public void onPing(ProxyPingEvent e){
         ServerInfo serverInfo = Main.getInstance().getProxy().getServerInfo("lobby");
-        Main.getInstance().getProxy().getConsole().sendMessage("Informations concernant le serveur :" + serverInfo.getName());
+        Main.getInstance().getProxy().getConsole().sendMessage("Informations concernant le serveur: " + serverInfo.getName());
         Main.getInstance().getProxy().getConsole().sendMessage("Joueurs connectés :" + serverInfo.getPlayers().size());
         Main.getInstance().getProxy().getConsole().sendMessage("Port du serveur :" + serverInfo.getAddress().getPort());
     }
