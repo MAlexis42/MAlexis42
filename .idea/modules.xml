@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Havana Bungee/Havana Bungee.iml" filepath="$PROJECT_DIR$/Havana Bungee/Havana Bungee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HavanaBungee/HavanaBungee.iml" filepath="$PROJECT_DIR$/HavanaBungee/HavanaBungee.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MAlexis42.iml" filepath="$PROJECT_DIR$/.idea/MAlexis42.iml" />
     </modules>
   </component>

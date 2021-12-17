@@ -1,4 +1,4 @@
-package fr.alexism.havanabungee;
+package fr.alexis.havanabungee;
 
 import net.md_5.bungee.api.plugin.Plugin;
 
