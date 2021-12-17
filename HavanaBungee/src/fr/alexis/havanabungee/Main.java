@@ -1,5 +1,6 @@
 package fr.alexis.havanabungee;
 
+import fr.alexis.havanabungee.listeners.ServerPing;
 import net.md_5.bungee.api.plugin.Plugin;
 
 public class Main extends Plugin {
@@ -11,6 +12,7 @@ public class Main extends Plugin {
         instance = this;
 
         getProxy().getConsole().sendMessage("Le plugin marche parfaitement !");
+        getProxy().getPluginManager().registerListener(this, new ServerPing());
     }
 
     @Override
