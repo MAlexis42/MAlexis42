@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="HavanaBungee:jar">
-    <output-path>$USER_HOME$/Desktop</output-path>
-    <root id="archive" name="HavanaBungee.jar">
-      <element id="module-output" name="HavanaBungee" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/bootstrap/target/BungeeCord.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
